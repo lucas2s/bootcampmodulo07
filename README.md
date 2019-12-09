@@ -1,68 +1,84 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" >
+  <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="100px" /> <br />
+  Bootcamp 9.0 da <a text-decoration="none" href="https://rocketseat.com.br">:rocket: Rockeseat</a> - Módulo 7: Arquitetura Flux
+</h1>
+<h2 align="center">
+    <img alt="GoStack" src="https://facebook.github.io/react-native/img/header_logo.svg" width="120px" />
+</h2>
 
-## Available Scripts
+<blockquote align="center">“Feito é melhor doque perfeito!"</blockquote>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://github.com/lucasssartori?tab=followers">
+    <img alt="GitHub Lucas Sartori" src="https://img.shields.io/github/followers/lucasssartori?style=social">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/lucasssartori/bootcampmodulo07/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/lucasssartori/bootcampmodulo07?style=social">
+  </a>
+  <a href="https://github.com/lucasssartori/bootcampmodulo07/forks/">
+    <img alt="Stargazers" src="https://img.shields.io/github/forks/lucasssartori/bootcampmodulo07?style=social">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/lucasssartori/bootcampmodulo07/watchers">
+    <img alt="watchers" src="https://img.shields.io/github/watchers/lucasssartori/bootcampmodulo07?style=social">
+  </a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#1---sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#2---tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#3---funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#4---apresentação">Apresentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#5---executar-aplicação">Executar aplicação</a>
+</p>
 
-### `yarn test`
+## 1 - Sobre o modulo
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Neste modulo foi desenvolvida uma aplicação web de um carrinho de compras. Toda estrutura de estado do carrinho de compras foi feito com a aplicação da arquitetura Flux através do uso das bibliotecas Redux e Redux Saga.
 
-### `yarn build`
+## 2 - Tecnologias
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O Projeto desenvolvido em ReactJS com aplicação de diversas tecnologias e bibliotecas.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  - redux
+  - redux saga
+  - axios
+  - jason-server (Simulador de backend)
+  - prop-types
+  - react-icons
+  - styled-components
+  - eslint
+  - prettier
+  - editorconfig
+  - reactotron
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3 - Funcionalidades
 
-### `yarn eject`
+  - Listagem de produtos. Os podutos são recuperados do jason-server.
+  - Inclusão dos produtos no carrinho de compras.
+  - Alteração da quantidade de produtos incluidos no carrinho.
+  - Alteração da quantidade de cada item no carrinho.
+  - Listagem dos no carrinho de compras.
+  - Cálculo dos itens em relação a quantidade, mais o calculo total da compra.
+  - Tratamento de produtos em estoque.
+  - Atualização dos itens do carrinho em todos os componentes da aplicação que itilizam informações do carrinho de compras.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 4 - Apresentação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p> Tela Home - Listagem dos produtos </p>
+<img alt="Tela Main" src="./imagens/tela1.png" />
+<p> Tela Cart - Responsável por listar os produtos adicionados no carrinho. </p>
+<img alt="Tela Main" src="./imagens/tela2.png" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 5 - Executar aplicação
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+:heavy_check_mark: Faça um clone desse repositório. <br />
+:heavy_check_mark: Entre na pasta do projeto via linha de comando. <br />
+:heavy_check_mark: Executar o comando yarn para instalar as dependências. <br />
+:heavy_check_mark: Executar o comando yarn jsonserver iniciar o simulador do backend. <br />
+:heavy_check_mark: Executar o comando yarn start. <br />
+:heavy_check_mark: A aplicação será aberta no navegador. <br />
 
-## Learn More
+:heavy_exclamation_mark: Obs: A aplicação yarn deve estar instalada no computador.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
