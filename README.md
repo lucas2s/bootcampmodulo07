@@ -26,14 +26,14 @@
 </p>
 
 <p align="center">
-  <a href="#1---sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#1---sobre-o-módulo">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#2---tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#3---funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#4---apresentação">Apresentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#5---executar-aplicação">Executar aplicação</a>
 </p>
 
-## 1 - Sobre o modulo
+## 1 - Sobre o módulo
 
 Neste modulo foi desenvolvida uma aplicação web de um carrinho de compras. Toda estrutura de estado do carrinho de compras foi feito com a aplicação da arquitetura Flux através do uso das bibliotecas Redux e Redux Saga.
 
